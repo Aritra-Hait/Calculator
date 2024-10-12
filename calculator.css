@@ -1,22 +1,28 @@
 body {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
     background-color: #f9f9f9;
-
 }
 
-
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid black;
+    padding: 0px;
+    background-color: black;
+    border-radius: 15px;
+}
 
 .display {
     width: 24.88rem;
     border: 10px solid black;
     text-align: right;
     box-sizing: border-box;
-    background-color: #87ad9bac;
+    background-color: #b7e9d1ac;
     padding: 15px;
     font-size: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
@@ -24,7 +30,6 @@ body {
 }
 
 .operation {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,7 +47,7 @@ button {
     padding: 0;
     font-size: 1.8rem;
     margin: 3px;
-    color: rgb(0, 0, 0);
+    color: black;
     font-weight: 700;
     font-family: Roboto;
 }
